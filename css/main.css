@@ -40,21 +40,6 @@ img, embed, object, video, picture {
      margin-bottom:10px;
    }
   
-  /* conntainer id's */
-  
-  /* logo
-  nav
-  hero
-  product_1
-  product_2
-  service_1
-  service_2
-  service_3
-  service_4
-  service_5
-  service_6
-  footer */
-
   /* ---Mobile Library Grid Styles--- */
   
   .full-width-grid-con {
@@ -84,8 +69,6 @@ img, embed, object, video, picture {
    padding-bottom: 50px;
   }
 
-
-  
   .col-span-1	{grid-column: span 1 / span 1;}
   .col-span-2	{grid-column: span 2 / span 2;}
   .col-span-3	{grid-column: span 3 / span 3;}
@@ -102,14 +85,7 @@ img, embed, object, video, picture {
   .col-end-3	{grid-column-end: 3;}
   .col-end-4	{grid-column-end: 4;}
   .col-end-5	{grid-column-end: 5;}
-  
-  /* #product_1, #product_2, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
-   height: 267px;
-  } */
 
-
-  
-  
   /* ---Tablet Library Grid Styles--- */
   @media screen and (min-width: 768px) {
      .grid-con { 
@@ -120,6 +96,20 @@ img, embed, object, video, picture {
         padding-right: 15px;
      }
   
+#nav {
+   text-align: right;
+}
+
+#hero, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
+   padding-top: 70px;
+   padding-bottom: 70px;
+  }
+
+#product_1, #product_2, #footer {
+   padding-top: 50px;
+   padding-bottom: 50px;
+  }
+
      .m-col-span-1	{grid-column: span 1 / span 1;}
      .m-col-span-2	{grid-column: span 2 / span 2;}
      .m-col-span-3	{grid-column: span 3 / span 3;}
