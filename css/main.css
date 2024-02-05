@@ -1,13 +1,4 @@
-/* Tailwind and Bootstrap use px for media queries, with foundation using em
-for this library we will stick with pixels */
-
-/* ---General rules - scales images, videos to size of container--- */
-img, embed, object, video, picture {
-    max-width: 100%; 
-  }
-  
   /* ---Change the way the box model works, tells the browser to account for any border and padding in the values you specify for an element's width and height.--- */
-  
   html {
     box-sizing: border-box; 
   }
@@ -15,14 +6,7 @@ img, embed, object, video, picture {
   *, *::before, *::after {
     box-sizing: inherit; 
   }
-  
-  /* ---Mini CSS reset--- */
-  
-  body, p, h1, h2, h3, h4, h5 {
-     margin: 0px; 
-     padding: 0px;
-  }
-  
+
   /* ---Utility Classes--- */
   
   .hidden {
@@ -35,7 +19,6 @@ img, embed, object, video, picture {
      border-radius: 5px;
      padding: 20px;
      text-align: center;
-     justify-content: center;
      margin-top: 10px;
      margin-bottom:10px;
    }
@@ -165,6 +148,20 @@ img, embed, object, video, picture {
         padding-right: 15px;
      }
   
+#desk_add{
+ display:block;
+}
+
+     #hero, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+     }
+   
+   #product_1, #product_2, #desk_add, #footer {
+      padding-top: 70px;
+      padding-bottom: 70px;
+     }
+
      .l-col-span-1	{grid-column: span 1 / span 1;}
      .l-col-span-2	{grid-column: span 2 / span 2;}
      .l-col-span-3	{grid-column: span 3 / span 3;}
