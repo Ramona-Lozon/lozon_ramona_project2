@@ -35,6 +35,7 @@ img, embed, object, video, picture {
      border-radius: 5px;
      padding: 20px;
      text-align: center;
+     justify-content: center;
      margin-top: 10px;
      margin-bottom:10px;
    }
@@ -72,7 +73,18 @@ img, embed, object, video, picture {
      padding-left: 15px;
      padding-right: 15px;
   }
-  
+
+#hero, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
+   padding-top: 70px;
+   padding-bottom: 70px;
+  }
+
+#product_1, #product_2, #footer {
+   padding-top: 50px;
+   padding-bottom: 50px;
+  }
+
+
   
   .col-span-1	{grid-column: span 1 / span 1;}
   .col-span-2	{grid-column: span 2 / span 2;}
@@ -91,10 +103,11 @@ img, embed, object, video, picture {
   .col-end-4	{grid-column-end: 4;}
   .col-end-5	{grid-column-end: 5;}
   
-  #product_1, #product_2, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
-   /* height: 267px; */
-   -ms-grid-row-span: 2;
-  }
+  /* #product_1, #product_2, #service_1, #service_2, #service_3, #service_4, #service_5, #service_6 {
+   height: 267px;
+  } */
+
+
   
   
   /* ---Tablet Library Grid Styles--- */
